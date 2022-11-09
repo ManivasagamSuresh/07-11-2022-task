@@ -39,4 +39,4 @@ app.get("/roomsBooked",(req,res)=>{
 
 
 
-app.listen(3006);
+app.listen(process.env.PORT || 3006);
